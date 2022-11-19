@@ -1,0 +1,54 @@
+$color-main:red;
+$color-subtitle: white ;
+
+.subtitle-color{
+    color: $color-subtitle;
+}
+.btn-main{
+    background-color: $color-main;
+    color:white;
+    border: none;
+    border: 1px solid $color-main;
+    
+    &.hover{
+        background-color: white;
+        color: $color-main;
+    }
+}
+
+.btn-sec{
+    color: #000;
+    background-color: transparent;
+    border: none;
+
+    &.hover{
+        color: #888;
+    }
+}
+
+.main-menu{
+    margin-bottom: 0;
+    padding: 0;
+    li{
+        list-style: none;
+        display:inline;
+        font-size: 1rem;
+        margin-left: 0.2rem;
+        
+        a{
+            color: #000;
+            text-decoration: none;
+            &.hover{
+                text-decoration: underline;
+
+            }
+        }
+    }
+}
+.icon-sm{
+    i{
+        font-size: 
+    
+    }
+
+}
